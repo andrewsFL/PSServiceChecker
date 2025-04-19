@@ -5,6 +5,7 @@ $fromEmail = "youremail@outlook.com" # Change to email address used to send the 
 $toEmail = "youremail@outlook.com" # Change to your email address
 $smtpServer = "smtp.office365.com" # Change to your SMTP server
 $smtpPort = 587 # Change to your SMTP port
+
 $credential = Import-CliXml -Path ".\emailcred.xml"
 $sendAlert = $false
 
