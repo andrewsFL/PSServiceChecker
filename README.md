@@ -1,4 +1,4 @@
-<h1>PSServiceChecker - Powershell Service Status Check & Alert</h1>
+<h1>PSServiceChecker - Powershell Service Checker & Email Alert</h1>
 
 <h2>Description</h2>
 Project consists of a simple Powershell script, CSV for storing services/statuses desired and an XML file for storing email credentials which must be generated. It will check the status of each service that is listed and log the current status. If the status is different from the desired one, the script will attempt to set the service to the correct status and will send an email alert with the results.
